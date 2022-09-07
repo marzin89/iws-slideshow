@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Header from './header/header';
 import Cover from './slides/cover';
 import AboutIWS from './slides/about-iws';
@@ -9,6 +9,10 @@ import TargetGroups from './slides/target-groups';
 import DatabaseSchema from './slides/database-schema';
 import RestApiNpm from './slides/rest-api-npm';
 import RestApiEndpoints from './slides/rest-api-endpoints';
+import OverviewPublicWebsite from './slides/overview-public-website';
+import OverviewPrivateWebsite from './slides/overview-private-website';
+import TestPersons from './slides/test-persons';
+import Other from './slides/other';
 import Footer from './footer/footer';
 
 class App extends React.Component {
@@ -30,6 +34,10 @@ class App extends React.Component {
         <RestApiEndpoints />,
         <SitemapPublic />,
         <TargetGroups />,
+        <OverviewPublicWebsite />,
+        <OverviewPrivateWebsite />,
+        <Other />,
+        <TestPersons />,
       ],
       titles: [
         'Inclusive Web Solutions webbplats',
@@ -41,6 +49,10 @@ class App extends React.Component {
         'REST-webbtjänst (endpoints, CRUD, statuskoder)',
         'Sitemap publik webbplats',
         'Målgrupper',
+        'Struktur och routing',
+        'Struktur Admin',
+        'Övrigt',
+        'Testpersoner',
       ]
     }
   }

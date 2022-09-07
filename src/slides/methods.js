@@ -20,6 +20,9 @@ const Methods = () => {
                         <li>SASS</li>
                         <li>Node.js/Express.js</li>
                         <li>MongoDB</li>
+                        <li>EmailJS</li>
+                        <li>Cloudinary</li>
+                        <li>React Router</li>
                     </ul>
                 </div>
             </div>
@@ -30,7 +33,7 @@ const Methods = () => {
                         <li>Kompatibilitet (Firefox, Chrome, Edge, Opera)</li>
                         <li>Responsivitet (mobil)</li>
                         <li>Tillgänglighet (Lighthouse, Wave, Color Contrast Analyzer, skärmläsare och
-                            två användartester)
+                            två användartester, Steve Krug's mall)
                         </li>
                         <li>Validitet (W3C:s testverktyg)</li>
                     </ul>
