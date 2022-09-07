@@ -12,7 +12,7 @@ const OverviewPrivateWebsite = () => {
                 <tbody>
                     <tr className="table-bright">
                         <td><i>Admin</i></td>
-                        <td>GET, POST, PUT och DELETE för tjänster, inlägg, använadare, 
+                        <td>GET, POST, PUT och DELETE för tjänster, inlägg, användare, 
                             kommentarer och söktabellen (ej bilduppladdning)</td>
                     </tr>
                     <tr className="table-dark">
