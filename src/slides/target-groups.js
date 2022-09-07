@@ -22,6 +22,15 @@ const TargetGroups = () => {
                         <td>se ovan</td>
                     </tr> 
                     <tr className="table-dark">
+                        <td className="table-left">Inkomst:</td>
+                        <td>låg-, medel- och höginkomsttagare (anställda), 
+                            medel- och höginkomsttagare (egenföretagare)</td>
+                    </tr>
+                    <tr className="table-bright">
+                        <td className="table-left">Intressen:</td>
+                        <td>alla</td>
+                    </tr>
+                    <tr className="table-dark">
                         <td className="table-left">Kan ha en funktionsnedsättning:</td>
                         <td>ja, men arbetsför eller kan använda en dator, mobiltelefon eller surfplatta</td>
                     </tr>
