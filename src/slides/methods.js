@@ -1,6 +1,6 @@
 const Methods = () => {
     return (
-        <div id="text-wrapper">
+        <div id="text-wrapper-database">
             <h1>Metoder</h1>
             <div className="row">
                 <div className="methods-left">
