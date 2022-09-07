@@ -3,8 +3,8 @@ const Courses = () => {
         <table className="api-left">
             <thead>
                 <th>Kategori</th>
-                <th>Endpoints</th>
-                <th>CRUD-funktioner</th>
+                <th>Endpoint</th>
+                <th>CRUD-funktion</th>
                 <th>Statuskoder</th>
             </thead>
             <tbody>
