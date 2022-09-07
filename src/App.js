@@ -13,6 +13,7 @@ import OverviewPublicWebsite from './slides/overview-public-website';
 import OverviewPrivateWebsite from './slides/overview-private-website';
 import TestPersons from './slides/test-persons';
 import Other from './slides/other';
+import Results from './slides/results';
 import Footer from './footer/footer';
 
 class App extends React.Component {
@@ -38,6 +39,7 @@ class App extends React.Component {
         <OverviewPrivateWebsite />,
         <Other />,
         <TestPersons />,
+        <Results />
       ],
       titles: [
         'Inclusive Web Solutions webbplats',
@@ -53,6 +55,7 @@ class App extends React.Component {
         'Struktur Admin',
         'Övrigt',
         'Testpersoner',
+        'Results',
       ]
     }
   }
